@@ -1,0 +1,453 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"49 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\lcd.c
+[e E2365 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"27 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\adc.c
+[e E2357 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"25
+[v _adcInit adcInit `(v  1 e 1 0 ]
+"40
+[v _adcRead adcRead `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"14 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+"54
+[v _pinMode pinMode `(v  1 e 1 0 ]
+"35 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+"87
+[v _kpInit kpInit `(v  1 e 1 0 ]
+"30 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\lcd.c
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+"35
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+"42
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+"67
+[v _lcdData lcdData `(v  1 e 1 0 ]
+"86
+[v _lcdPrint lcdPrint `(v  1 e 1 0 ]
+"100
+[v _lcdSetCursor lcdSetCursor `(v  1 e 1 0 ]
+"109
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"30 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"63
+[v _celsius celsius `(v  1 e 1 0 ]
+"82
+[v _fahr fahr `(v  1 e 1 0 ]
+"102
+[v _kelvin kelvin `(v  1 e 1 0 ]
+"121
+[v _itoa itoa `(v  1 e 1 0 ]
+"130
+[v _readButton readButton `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"271
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"450
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4619
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4775
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"4901
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4908
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"25 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\keypad.c
+[v _valor valor `ui  1 s 2 valor ]
+"24 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\main.c
+[v _menuNum menuNum `i  1 e 2 0 ]
+"25
+[v _str str `[6]uc  1 e 6 0 ]
+"28
+[v _tecla tecla `uc  1 e 1 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+{
+"61
+} 0
+"130
+[v _readButton readButton `(v  1 e 1 0 ]
+{
+"140
+} 0
+"35 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+{
+"37
+} 0
+"109 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\lcd.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"135
+} 0
+"87 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\keypad.c
+[v _kpInit kpInit `(v  1 e 1 0 ]
+{
+"92
+} 0
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+{
+"63
+[v kpDebounce@k k `i  1 a 2 6 ]
+"40
+[v kpDebounce@i i `uc  1 a 1 9 ]
+[v kpDebounce@j j `uc  1 a 1 8 ]
+"46
+[v kpDebounce@old_D old_D `uc  1 a 1 5 ]
+"41
+[v kpDebounce@tempo tempo `uc  1 s 1 tempo ]
+"42
+[v kpDebounce@valorNovo valorNovo `ui  1 s 2 valorNovo ]
+"43
+[v kpDebounce@valorAntigo valorAntigo `ui  1 s 2 valorAntigo ]
+"85
+} 0
+"102 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\main.c
+[v _kelvin kelvin `(v  1 e 1 0 ]
+{
+"103
+[v kelvin@tmpKel tmpKel `i  1 a 2 59 ]
+[v kelvin@tmp tmp `i  1 a 2 57 ]
+"119
+} 0
+"82
+[v _fahr fahr `(v  1 e 1 0 ]
+{
+"83
+[v fahr@tmpFahr tmpFahr `i  1 a 2 59 ]
+[v fahr@tmp tmp `i  1 a 2 57 ]
+"100
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 12 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 11 ]
+[v ___awdiv@counter counter `uc  1 a 1 10 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 6 ]
+[v ___awdiv@divisor divisor `i  1 p 2 8 ]
+"41
+} 0
+"63 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\main.c
+[v _celsius celsius `(v  1 e 1 0 ]
+{
+"64
+[v celsius@tmp tmp `i  1 a 2 57 ]
+"80
+} 0
+"100 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\lcd.c
+[v _lcdSetCursor lcdSetCursor `(v  1 e 1 0 ]
+{
+[v lcdSetCursor@line line `i  1 p 2 8 ]
+[v lcdSetCursor@col col `i  1 p 2 10 ]
+"107
+} 0
+"42
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+{
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"43
+[v lcdCommand@old_D old_D `uc  1 a 1 6 ]
+"42
+[v lcdCommand@cmd cmd `uc  1 a 1 wreg ]
+"44
+[v lcdCommand@cmd cmd `uc  1 a 1 7 ]
+"65
+} 0
+"35
+[v _Delay2ms Delay2ms `(v  1 e 1 0 ]
+{
+"36
+[v Delay2ms@i i `uc  1 a 1 1 ]
+"40
+} 0
+"86
+[v _lcdPrint lcdPrint `(v  1 e 1 0 ]
+{
+"87
+[v lcdPrint@i i `uc  1 a 1 12 ]
+"86
+[v lcdPrint@str str `*.25Cuc  1 p 2 8 ]
+"93
+} 0
+"67
+[v _lcdData lcdData `(v  1 e 1 0 ]
+{
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"69
+[v lcdData@old_D old_D `uc  1 a 1 7 ]
+"67
+[v lcdData@valor valor `uc  1 a 1 wreg ]
+"70
+[v lcdData@valor valor `uc  1 a 1 6 ]
+"84
+} 0
+"14 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+{
+[v digitalWrite@pin pin `i  1 p 2 0 ]
+[v digitalWrite@value value `i  1 p 2 2 ]
+"38
+} 0
+"30 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\lcd.c
+[v _Delay40us Delay40us `(v  1 e 1 0 ]
+{
+"31
+[v Delay40us@i i `uc  1 a 1 0 ]
+"33
+} 0
+"121 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\main.c
+[v _itoa itoa `(v  1 e 1 0 ]
+{
+[v itoa@val val `ui  1 p 2 12 ]
+[v itoa@str str `*.39uc  1 p 2 14 ]
+"128
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 7 ]
+"30
+} 0
+"40 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\adc.c
+[v _adcRead adcRead `(i  1 e 2 0 ]
+{
+"41
+[v adcRead@ADvalor ADvalor `ui  1 a 2 2 ]
+"40
+[v adcRead@channel channel `ui  1 p 2 0 ]
+"55
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 14 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 13 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 4 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 12 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 52 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 51 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 43 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S576 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S581 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S584 . 4 `l 1 i 4 0 `d 1 f 4 0 `S576 1 fAsBytes 4 0 `S581 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S584  1 a 4 37 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 31 ]
+[s S652 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S655 . 2 `s 1 i 2 0 `us 1 n 2 0 `S652 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S655  1 a 2 41 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 36 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 35 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 30 ]
+"8
+[v ___flmul@b b `d  1 p 4 18 ]
+[v ___flmul@a a `d  1 p 4 22 ]
+"205
+} 0
+"25 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\adc.c
+[v _adcInit adcInit `(v  1 e 1 0 ]
+{
+"38
+} 0
+"54 C:\Users\guilh\Documents\Unifei\TFG\IHM_TFG\ProjetoFinal.X\io.c
+[v _pinMode pinMode `(v  1 e 1 0 ]
+{
+[v pinMode@pin pin `i  1 p 2 0 ]
+[v pinMode@type type `i  1 p 2 2 ]
+"73
+} 0
